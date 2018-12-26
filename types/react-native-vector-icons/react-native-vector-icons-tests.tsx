@@ -5,6 +5,7 @@ import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
 import FontAwesomeIcon from 'react-native-vector-icons/FontAwesome';
 import FontAwesome5Icon from 'react-native-vector-icons/FontAwesome5';
 import FontAwesome5ProIcon from 'react-native-vector-icons/FontAwesome5Pro';
+import AntDesignIcon from 'react-native-vector-icons/AntDesign';
 import Ionicon from 'react-native-vector-icons/Ionicons';
 
 const glyphMap = {
@@ -29,6 +30,7 @@ class Example extends React.Component {
       <View>
         {/* Normal Icon */}
         <MaterialIcon size={30} color="red" name="exit" />
+        <AntDesignIcon size={24} color="red" name="arrowleft" />
         <FontAwesome5Icon size={10} name="handshake" />
         <FontAwesome5Icon size={10} name="handshake" solid />
         <FontAwesome5ProIcon size={10} name="parachute-box" light />
